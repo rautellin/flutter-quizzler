@@ -116,6 +116,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "rflutter_alert",
+      "rootUri": "file:///Users/nathalierautell/Desktop/Development/flutter/.pub-cache/hosted/pub.dartlang.org/rflutter_alert-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///Users/nathalierautell/Desktop/Development/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -188,7 +194,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-05-13T10:25:32.259936Z",
+  "generated": "2021-05-13T18:46:46.195962Z",
   "generator": "pub",
   "generatorVersion": "2.12.1"
 }

@@ -1,19 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="928ab646-bd0f-4d54-805e-6bc1a27230ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/question.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/questions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1sTeQmJT1m8m5rId1E5d3kHQr7b" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,23 +82,34 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1678" height="382" key="GridCell.Tab.0.bottom" timestamp="1620902392591">
+    <state width="1678" height="382" key="GridCell.Tab.0.bottom" timestamp="1620932175774">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.bottom/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620902392591" />
-    <state width="1678" height="382" key="GridCell.Tab.0.center" timestamp="1620902392590">
+    <state width="1678" height="382" key="GridCell.Tab.0.bottom/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620932175774" />
+    <state width="1678" height="382" key="GridCell.Tab.0.center" timestamp="1620932175773">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.center/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620902392590" />
-    <state width="1678" height="382" key="GridCell.Tab.0.left" timestamp="1620902392590">
+    <state width="1678" height="382" key="GridCell.Tab.0.center/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620932175773" />
+    <state width="1678" height="382" key="GridCell.Tab.0.left" timestamp="1620932175772">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.left/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620902392590" />
-    <state width="1678" height="382" key="GridCell.Tab.0.right" timestamp="1620902392590">
+    <state width="1678" height="382" key="GridCell.Tab.0.left/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620932175772" />
+    <state width="1678" height="382" key="GridCell.Tab.0.right" timestamp="1620932175773">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
-    <state width="1678" height="382" key="GridCell.Tab.0.right/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620902392590" />
+    <state width="1678" height="382" key="GridCell.Tab.0.right/3440.964.1680.1025/0.25.3440.1345@0.25.3440.1345" timestamp="1620932175773" />
     <state x="100" y="125" width="1520" height="1142" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1620905147473">
       <screen x="0" y="25" width="3440" height="1345" />
     </state>
