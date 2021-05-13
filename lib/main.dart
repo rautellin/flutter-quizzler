@@ -24,6 +24,35 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
+  List<Widget> scoreKeeper = [];
+
+  List<String> questions = [
+    'You can lead a cow down stairs but not up stairs.',
+    'Approximately one quarter of human bones are in the feet.',
+    'A slug\'s blood is green.'
+  ];
+
+  List<bool> answers = [false, true, true];
+
+  int questionNumber = 0;
+
+  void pressedButton() {
+    setState(() {
+      bool correctAnswer = answers[questionNumber];
+
+      if (correctAnswer) {
+        scoreKeeper.add(
+          Icon(Icons.check, color: Colors.green),
+        );
+      } else {
+        scoreKeeper.add(
+          Icon(Icons.close, color: Colors.red),
+        );
+      }
+      questionNumber++;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -36,7 +65,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(10.0),
             child: Center(
               child: Text(
-                'Question',
+                questions[questionNumber],
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 25.0, color: Colors.white),
               ),
@@ -47,7 +76,9 @@ class _QuizPageState extends State<QuizPage> {
           child: Padding(
             padding: EdgeInsets.all(15.0),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                pressedButton();
+              },
               style: ElevatedButton.styleFrom(primary: Colors.green),
               child: Text(
                 'True',
@@ -61,7 +92,9 @@ class _QuizPageState extends State<QuizPage> {
           child: Padding(
             padding: EdgeInsets.all(15.0),
             child: ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                pressedButton();
+              },
               style: ElevatedButton.styleFrom(primary: Colors.red),
               child: Text(
                 'False',
@@ -71,6 +104,9 @@ class _QuizPageState extends State<QuizPage> {
             ),
           ),
         ),
+        Row(
+          children: scoreKeeper,
+        )
       ],
     );
   }
