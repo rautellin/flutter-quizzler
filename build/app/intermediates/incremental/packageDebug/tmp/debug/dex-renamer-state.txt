@@ -1,0 +1,4 @@
+#Thu May 13 12:24:08 CEST 2021
+base.0=/Users/nathalierautell/Desktop/Development/apps/flutter-quizzler/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
